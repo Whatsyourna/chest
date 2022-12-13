@@ -62,7 +62,7 @@ local PlaceID = game.PlaceId
                          wait()
                          game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, game.Players.LocalPlayer)
                      end)
-                     wait(4)
+                     wait(2000)
                  end
              end
          end
